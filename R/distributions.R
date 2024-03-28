@@ -18,7 +18,7 @@
 #' @importFrom stats qt
 #' @export
 qthill <- function(p, mean, sd, df) {
-  qt(p, df) * std_dev + mean
+  qt(p, df) * sd + mean
 }
 
 #' Calculate the density of a double normal distribution

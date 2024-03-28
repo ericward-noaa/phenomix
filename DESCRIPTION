@@ -27,7 +27,7 @@ Imports:
     gnorm,
     methods,
     stats,
-    TMB (>= 1.7.20),
+    RTMB,
     nlme
 Suggests:
     testthat,
